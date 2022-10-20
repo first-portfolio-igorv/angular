@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+body{
+    background-color: rgb(223, 223, 223);
+}
+.signin-icon{
+    width: 500px;
+    height: 340px;
+    margin:200px auto;
+    display: none;
+}
+h1{
+    text-align: center;
+    font-weight: 500;
+}
+.text{
+    width: 100%;
+    height: 55px;
+    border-radius: 7px;
+    border: 1px solid black;
+    font-size: 17px;
+    margin:20px 0px;
+    padding-left: 5px;
+}
+.text:focus{
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2pt 3pt rgb(102, 206, 251)
+}
+.button{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    margin-top:10px;
+    background-color: rgb(26, 169, 26);
+}
+.button:hover{
+    background-color: rgb(22, 139, 22);
+}
+.sign-up-button:hover{
+    background-color: rgb(42, 99, 222);
+}
+.up{
+    margin: 10px 0px;
+    color: rgb(64, 128, 255);
+    font-weight: 400;
+}
+.up:hover{
+    text-decoration: underline;
+    cursor:default;
+}
+.register-icon{
+    width: 500px;
+    height: 550px;
+    margin: 100px auto;
+}
+.sign-up-button{
+    background-color: rgb(44, 111, 255);
+}
+.profile{
+    display:none;
+    width: 500px;
+    height: 520px;
+    background-color: white;
+    margin: 100px auto;
+    padding-top: 30px;
+}
+h3{
+    text-align: center;
+    margin-top: 15px;
+    color: grey;
+    font-weight: 600;
+}
+.name{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+.bottom{
+    margin-top: 120px;
+}
+.photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: auto;
+    background-image: url(./3135715.png);
+    background-repeat: no-repeat;
+    background-size:contain
+}
+.shadow-green{
+    box-shadow: 0 0 2pt 3pt rgb(0, 229, 111);
+}
+.shadow-red{
+    box-shadow:  0 0 2pt 3pt rgb(251, 102, 102);
+}
+.fail{
+    display: none;
+    width: 200px;
+    height: 30px;
+    background-color: red;
+    color:white;
+    border-radius: 7px;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 5px;
+    position: absolute;
+}
+.email1{
+    margin-bottom: 0px;
+}
+.password1{
+    margin-top: 40px;
+}
+.fail1{
+    width: 250px;
+}
+.password{
+    margin-bottom: 2px;
+}
+.signin{
+    margin-top: 35px;
+}
