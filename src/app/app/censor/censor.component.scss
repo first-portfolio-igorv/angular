@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid black;
+}
+.title{
+    text-align: center;
+    line-height: 70px;
+}
+main{
+    padding: 0px 10px;
+    margin:150px auto;
+    width: 800px;
+    height: 300px;
+    background-color:rgb(239, 241, 243) ;
+}
+.bad-words{
+    font-size: 22px;
+    font-weight: bold;
+}
+.words{
+    color: red;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.words-line{
+    width: 500px;
+    height: 45px;
+    padding-left: 10px;
+    font-size: 18px;
+    border:1px solid grey;
+    border-radius: 7px;
+}
+.button{
+    width: 130px;
+    border-radius: 7px;
+    height: 45px;
+    border: 0px;
+    font-size: 18px;
+    outline: none;
+}
+.add{
+    background-color: rgb(255, 200, 99);
+}
+.add:hover{
+    background-color: rgb(227, 179, 89);
+}
+.add:active{
+    box-shadow: 0 0 2pt 2pt rgb(255, 200, 99);
+}
+.reset{
+    background-color: red;
+    color:white
+}
+.reset:hover{
+    background-color: rgb(202, 5, 5);
+}
+.reset:active{
+    box-shadow: 0 0 2pt 2pt red;
+}
+.text{
+    margin:20px 0px;
+    width: 780px;
+    height: 100px;
+    border: 1px solid grey;
+    resize: none;
+    font-size: 18px;
+}
+.cenzor{
+    width: 780px;
+    height: 60px;
+    background-color: rgb(28, 161, 28);
+    color: white;
+}
+.cenzor:hover{
+    background-color: rgb(22, 130, 22);
+}
+.cenzor:active{
+    box-shadow: 0 0 2pt 2pt rgb(28, 161, 28);
+}

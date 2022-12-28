@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+    clear: both;
+}
+body{
+    background-color: lightgray;
+}
+.main{
+    width: 1200px;
+    height: 680px;
+    background-color: aliceblue;
+    margin: auto;
+    h1{
+        font-size: 35px;
+    }
+    .user{
+        line-height: 50px;
+        font-size: 30px;
+    }
+    .add-menu-block{
+        height: 100px;
+        padding:30px 0px;
+        input{
+            width: 920px;
+            height: 45px;
+            border: 1px gray solid;
+            border-radius: 7px;
+            font-size: 20px;
+        }
+        .add{
+            width: 250px;
+            margin-left: 25px;
+            background-color: rgb(4, 156, 4);
+            color: white;
+        }
+    }
+}
+.edit-block{
+    background-color: beige;
+    width: 1000px;
+    height: 70px;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    .text{
+        width: 200px;
+        height: 40px;
+        margin: 15px 200px 0px 400px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .button{
+        width: 60px;
+        height: 40px;
+        background: green; 
+        margin-top: 15px;
+        color: white;
+        font-size: 17px;
+        border: none;
+        border-radius: 7px;
+    }
+}

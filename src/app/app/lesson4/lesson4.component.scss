@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: sans-serif;
+    clear: both;
+}
+body{
+    background-color: lightgray;
+}
+.main{
+    width: 1200px;
+    height: 680px;
+    background-color: aliceblue;
+    margin: auto;
+    h1{
+        font-size: 35px;
+    }
+    .add-menu-block{
+        height: 100px;
+        padding:30px 0px;
+        input{
+            width: 920px;
+            height: 45px;
+            border: 1px gray solid;
+            border-radius: 7px;
+            font-size: 20px;
+        }
+        .add{
+            width: 250px;
+            margin-left: 25px;
+            background-color: rgb(4, 156, 4);
+            color: white;
+        }
+    }
+}
+.edit-block{
+    background-color: beige;
+    width: 1000px;
+    height: 70px;
+    position: absolute;
+    top: 600px;
+    left: 250px;
+    .text{
+        width: 200px;
+        height: 40px;
+        margin: 15px 200px 0px 400px;
+        border-radius: 7px;
+        font-size: 20px;
+    }
+    .button{
+        width: 60px;
+        height: 40px;
+        background: green; 
+        margin-top: 15px;
+        color: white;
+        font-size: 17px;
+        border: none;
+        border-radius: 7px;
+    }
+}
+table{
+    width: 100%;
+    padding-left: 10px;
+    border-bottom: 1px solid ;
+    .tr{
+        font-size: 20px;
+        font-weight: 100;
+        height: 70px;
+    }
+    tr{
+        height: 40px;
+        font-size: 22px;
+        font-weight: bold;
+        .first,.second{
+            width: 300px;
+        }
+        .third{
+            width: 250px;
+        }
+        .fourth{
+            width: 150px;
+            .done{
+                color: rgb(55, 216, 55);
+            }
+            .inPr{
+                color: red;
+            }
+        }
+        .btn1{
+            width: 60px;
+            height: 40px;
+            background-color: rgb(237, 179, 33);
+            border: none;
+            border-radius: 7px;
+            font-size: 18px;
+            color: black;
+        }
+        .btn2{
+            width: 100px;
+            height: 40px;
+            background-color: red;
+            border: none;
+            color: white;
+            border-radius: 7px;
+            font-size: 18px;
+
+        }
+    }
+    
+}
+.btn3{
+    width: 60px;
+    height: 40px;
+    background-color: rgb(33, 159, 237);
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    color: white;
+}
+.add-block{
+    width: 600px;
+    height: 350px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    right: 30%;
+    border-radius: 7px;
+    border:1px solid black;
+    hr{
+        margin: 10px 0px;
+    }
+    h2{
+        margin: 10px;
+    }
+}
+.inp{
+    width: 500px;
+    height: 40px;
+    border: 1px gray solid;
+    border-radius: 7px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 15px 50px;
+}
+.right{
+    float: right;
+    margin-right: 15px;
+}

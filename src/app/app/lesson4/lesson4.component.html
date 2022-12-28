@@ -1,0 +1,41 @@
+<body>
+    <div class="main">
+        <h1>My phone book!</h1>
+        <hr>
+        <div class="add-menu-block">
+            <input type="text" name=""  id="" placeholder="search text go here" [(ngModel)]="text">
+            <input type="button" value="Add phone" class="add" (click)="add()">
+        </div>
+        <hr>
+        <div class="task-list-block">
+            <table>
+                <tr>
+                    <td class="first" (click)="sort()">First name</td>
+                    <td class="second" (click)="sort1()">Last name</td>
+                    <td class="third" (click)="sort2()">number</td>
+                    <td class="fourth">Edit</td>
+                    <td class="fivth">Delete</td>
+                </tr>
+            </table>
+            <table *ngFor="let phone of phones | sort:sortCheck| sortLastName:sortCheck1| sortNumber:sortCheck2| search:text;index as i">
+                <tr class="tr">
+                    <td class="first">{{phone.firstName}}</td>
+                    <td class="second">{{phone.lastName}}</td>
+                    <td class="third">{{phone.number}}</td>
+                    <td class="fourth"><input type="button" value="Edit" class="btn1" (click)="edit(i)"></td>
+                    <td class="fivth"><input type="button" value="Delete" class="btn2" (click)="delete(i)"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="add-block" *ngIf="check">
+            <h2>Add phone</h2>
+            <hr>
+            <input type="text" name="" id="" [(ngModel)]="firstName" class="inp" placeholder="first name goes here">
+            <input type="text" name="" id="" [(ngModel)]="lastName" class="inp" placeholder="last name goes here">
+            <input type="text" name="" id="" [(ngModel)]="number" class="inp" placeholder="number phone goes here">
+            <hr>
+            <input type="button" value="Save" class="btn3 right" (click)="save()" *ngIf="saveCheck">
+            <input type="button" value="Save" class="btn3 right" (click)="saveEdit()" *ngIf="!saveCheck">
+        </div>
+    </div>
+</body>
